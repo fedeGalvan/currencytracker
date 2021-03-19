@@ -1,0 +1,57 @@
+.subtitle {
+  text-align: center;
+  color: blue;
+}
+
+h2.title {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+
+.cardWrapper {
+  background-color: #482ff7;
+  overflow: auto;
+  white-space: nowrap;
+  max-width: 90%;
+  display: block;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+.cardWrapper .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.cardWrapper:nth-last-child(1) {
+  margin-bottom: 3rem;
+}
+
+.compra,
+.venta {
+  font-size: 1.5rem;
+  color: #2d6cdf;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
